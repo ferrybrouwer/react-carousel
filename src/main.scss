@@ -1,0 +1,61 @@
+.item-container {
+  background-color: grey;
+  position: relative;
+  width: 160px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  pointer-events: none;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: translateZ(1px);
+  z-index: 0;
+}
+
+.carousel-item--in-view {
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.carousel-item--active {
+  z-index: 99;
+}
+
+.carousel-item:nth-child(1) {
+  background-image: url('https://groups.drupal.org/files/160x600.jpg');
+}
+.carousel-item:nth-child(2) {
+  background-image: url('https://s3.envato.com/files/163046660/160x600.jpg');
+}
+.carousel-item:nth-child(3) {
+  background-image: url('http://www.socialancer.com/wp-content/uploads/2014/06/shopify-buttons-160x600.jpg');
+}
+.carousel-item:nth-child(4) {
+  background-image: url('http://www.sinepisodes.com/wp-content/uploads/2016/07/160x600.gif');
+}
+.carousel-item:nth-child(5) {
+  background-image: url('http://inboxprofithacks.com/wp-content/uploads/2017/02/160x600afinal.gif');
+}
+.carousel-item:nth-child(6) {
+  background-image: url('http://syntheticdomain.com/wp-content/uploads/2017/01/banner-ads.gif');
+}
+.carousel-item:nth-child(7) {
+  background-image: url('https://vignette1.wikia.nocookie.net/legopiratesthevideogame/images/5/5b/Thew-160x600-1652.jpg');
+}
+.carousel-item:nth-child(8) {
+  background-image: url('http://www.eastin-cl.eu/wp-content/uploads/2016/03/banner2.jpg');
+}
+.carousel-item:nth-child(9) {
+  background-image: url('https://docs.joomla.org/images/7/7e/Joomla-3.5-Imagery-160x600-en.png');
+}
+.carousel-item:nth-child(10) {
+  background-image: url('http://assets.umusic.co.uk/polydor/kickass/160X600.gif');
+}
