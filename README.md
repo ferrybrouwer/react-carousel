@@ -2,6 +2,13 @@
 
 > A higher order component for React
 
+## Try it out
+
+Spinup a dev server to try it out.
+
+```
+npm i && npm start
+```
 
 ## Usage
 
